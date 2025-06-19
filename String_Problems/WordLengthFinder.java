@@ -95,7 +95,6 @@ public class WordLengthFinder {
 
 
 
-(Missing file for Rock-Paper-Scissors logic)
 
 
 
@@ -106,9 +105,5 @@ public class WordLengthFinder {
 
 
 
-
-
-
-git commit -m "[Lavish] Add. Created word-length pairs after manual string splitting"
 
 
