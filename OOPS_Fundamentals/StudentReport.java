@@ -67,7 +67,6 @@ public class StudentReport {
 }
 
 
-Level 1 Practice Programs
 
 
 
@@ -80,17 +79,3 @@ Level 1 Practice Programs
 
 
 
-Level 2 
-
-git commit -m "[Lavish] Add. Created Student class with methods to calculate grade and display student details"
-
-(Missing file for BankAccount / ATM simulation)
-
-Palindrome.java
-git commit -m "[Lavish] Add. Created PalindromeChecker class to verify and display palindrome result"
-
-MovieData.java
-git commit -m "[Lavish] Add. Created MovieTicket class with booking and display methods"
-
-ShoppingCart.java
-git commit -m "[Lavish] Add. Created CartItem class with methods to add, remove, and calculate cart total"
