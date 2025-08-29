@@ -1,0 +1,24 @@
+Class Node
+    Field: stopName
+    Field: next
+
+Class LinkedList
+    Head node
+
+    Method: insertAfter(prevStop, newStop)
+        Find prevStop in list
+        Insert new Node(newStop) after it
+
+    Method: delete(stopName)
+        Find stopName
+        Remove it from list
+
+    Method: search(stopName)
+        Traverse list
+        If found return true else false
+
+Main:
+    Route = Depot → Main Street → City Mall → Hospital → Airport
+    Insert University after City Mall
+    Delete Hospital
+    Search "Airport" → Found

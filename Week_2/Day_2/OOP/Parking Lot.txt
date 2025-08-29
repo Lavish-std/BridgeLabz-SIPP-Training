@@ -1,0 +1,26 @@
+Class Vehicle
+    Fields: vehicleNumber, entryTime
+    Method: calculateFee(exitTime) → default returns 0
+
+Class Car extends Vehicle
+    Method: calculateFee(exitTime)
+        hours = exitTime - entryTime
+        fee = 50 + (hours-1)*30
+        return fee
+
+Class Bike extends Vehicle
+    Method: calculateFee(exitTime)
+        hours = exitTime - entryTime
+        fee = 20 + (hours-1)*10
+        return fee
+
+Class Truck extends Vehicle
+    Method: calculateFee(exitTime)
+        hours = exitTime - entryTime
+        fee = 100 + (hours-1)*50
+        return fee
+
+Main:
+    Car enters 10:00, exits 13:30 → Fee = 125
+    Bike enters 11:15, exits 12:00 → Fee = 30
+    Truck enters 09:30, exits 14:00 → Fee = 325

@@ -1,0 +1,25 @@
+Class User
+    Fields: username, password
+    Method: login() → "Base login check"
+
+Class Student extends User
+    Field: isEnrolled
+    Method: login()
+        If username & password valid AND isEnrolled = true
+            Print "Student login successful. Show exams."
+        Else
+            Print "Student login failed."
+
+Class Admin extends User
+    Field: isAdmin
+    Method: login()
+        If username & password valid AND isAdmin = true
+            Print "Admin login successful. Show exam tools."
+        Else
+            Print "Admin login failed."
+
+Main:
+    Create Student("john123", "pass123", enrolled=true)
+    Create Admin("admin01", "secure", isAdmin=true)
+    student.login()
+    admin.login()

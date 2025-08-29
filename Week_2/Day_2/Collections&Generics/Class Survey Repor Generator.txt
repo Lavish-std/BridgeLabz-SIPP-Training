@@ -1,0 +1,19 @@
+Class SurveyResponse
+    restaurantName
+    rating
+
+Steps:
+1. Collect responses in List<SurveyResponse>
+   Example:
+   PizzaHut 4, PizzaHut 5, KFC 3, KFC 4, Subway 5, Subway 4, Subway 5
+
+2. Group by restaurantName
+   Calculate average rating per restaurant
+
+3. Result:
+   PizzaHut → 4.5
+   KFC → 3.5
+   Subway → 4.67
+
+4. Find max average = Subway
+   Find min average = KFC

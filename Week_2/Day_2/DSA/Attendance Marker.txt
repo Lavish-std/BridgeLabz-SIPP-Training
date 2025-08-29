@@ -1,0 +1,20 @@
+Let attendance[30][30] // 30 students, 30 days
+
+Method markAttendance(studentId, day, value)
+    attendance[studentId][day] = value
+
+Method dailySummary(day)
+    count = 0
+    For each student i
+        If attendance[i][day] == 1 → count++
+    Print count
+
+Method monthlySummary(studentId)
+    total = sum(attendance[studentId][all days])
+    Print total
+
+Method defaulters()
+    For each student i
+        total = sum(attendance[i])
+        If total < 22
+            Print "Student i is a defaulter"
